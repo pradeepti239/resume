@@ -1,9 +1,9 @@
-:root {
+:root { 
     --bg: #1e1b4b;
     --bg-soft: #312e81;
-    --panel: #ffffff;
-    --text: #0f172a;
-    --muted: #475569;
+    --panel: #ffffff; 
+    --text: #0f172a; 
+    --muted: #475569; 
     --line: #ddd6fe;
     --accent: #7c3aed;
     --accent-2: #ec4899;
@@ -12,8 +12,7 @@
     --warm: #fff7ed;
     --shadow: 0 16px 40px rgba(76, 29, 149, 0.16);
     --radius: 18px;
-    --max: 1120px;
-}
+    --max: 1120px; }
 
 * {
     box-sizing: border-box;
@@ -26,7 +25,7 @@ html {
 }
 
 body {
-    font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    font-family: 'Poppins', system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
     line-height: 1.6;
     color: var(--text);
     background:
